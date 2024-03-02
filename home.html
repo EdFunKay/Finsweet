@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/media.css" />
+    <title>Finsweet</title>
+  </head>
+  <body class="page__body">
+    <div class="modal">
+      <div class="modal__content">
+          <div class="close-button" onclick="modalInstance.closeModal()">Welcome to Finsweet!</div>
+      </div>
+    </div>
+    <div class="container">
+        <header class="page__header">
+          <nav class="nav">
+            <a class="logo" href="home.html">
+              <img class="logo-img" src="./images/Logo.svg" alt="Logo" />
+            </a>
+            <div class="clone-gap">
+              <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="home.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="menu.html">Menu</a></li>
+                <li class="nav__item"><a class="nav__link" href="about.html">About us</a></li>
+                <li class="nav__item"><a class="nav__link" href="story.html">Our Story</a></li>
+                <li class="nav__item"><a class="nav__link" href="blog.html">Blog</a></li>
+                <li class="nav__item"><a class="nav__link" href="contact.html">Contact</a></li>
+              </ul>
+              <a class="clone__project--link"
+                >Clone Project
+                <svg
+                  width="20.501953"
+                  height="6.660645"
+                  viewBox="0 0 20.502 6.66064"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <desc>Created with Pixso.</desc>
+                  <defs />
+                  <path
+                    id="Arrow 6"
+                    d="M0 2.83032L20 2.83032L20 3.83032L0 3.83032L0 2.83032ZM19.293 3.33032L16.8179 0.855469C16.6201 0.657471 16.6201 0.346436 16.8179 0.148438C17.0161 -0.0495605 17.3271 -0.0495605 17.5249 0.148438L20.3535 2.97681C20.5518 3.1748 20.5518 3.48584 20.3535 3.68384L17.5249 6.51221C17.3271 6.71021 17.0161 6.71021 16.8179 6.51221C16.6201 6.31421 16.6201 6.00317 16.8179 5.80518L19.293 3.33032Z"
+                    fill="#FFFFFF"
+                    fill-opacity="1.000000"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </div>
+          </nav>
+        </header>
+        <main class="main">
+          <section class="food">
+            <div class="food__wrapper">
+              <div class="food__about--food">
+                <h1 class="food__title">
+                  We serve high quality foods of all kinds.
+                </h1>
+                <p class="food__text">
+                  Edit this text to make it your own. To edit, simply click
+                  directly on the text to start adding your own words. You can
+                  move the text.
+                </p>
+                <button id="btn" class="food__button"><a href="menu.html">View Menu</a>
+                  <svg
+                    width="20.501953"
+                    height="6.660645"
+                    viewBox="0 0 20.502 6.66064"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs />
+                    <path
+                      id="Arrow"
+                      d="M0 2.83032L20 2.83032L20 3.83032L0 3.83032L0 2.83032ZM19.293 3.33032L16.8179 0.855469C16.6201 0.657471 16.6201 0.346436 16.8179 0.148438C17.0161 -0.0495605 17.3271 -0.0495605 17.5249 0.148438L20.3535 2.97681C20.5518 3.1748 20.5518 3.48584 20.3535 3.68384L17.5249 6.51221C17.3271 6.71021 17.0161 6.71021 16.8179 6.51221C16.6201 6.31421 16.6201 6.00317 16.8179 5.80518L19.293 3.33032Z"
+                      fill="#2E2D33"
+                      fill-opacity="1.000000"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <ul class="food__list">
+                  <li class="food__item">
+                    <h2 class="food__heading">Opening Times</h2>
+                    <p class="food__heading--text">
+                      Sunday to Saturday  l  09:00 AM to 11:00 PM
+                    </p>
+                  </li>
+                  <li class="food__item">
+                    <h2 class="food__heading">Location</h2>
+                    <p class="food__heading--text">
+                      Master canteen, BBSR , Odisha 752054
+                    </p>
+                  </li>
+                  <li class="food__item">
+                    <h2 class="food__heading">Call us</h2>
+                    <p class="food__heading--text">+9776462441</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="food__picture">
+                <img
+                  class="food__image"
+                  src="./images/Header_Image.jpeg"
+                  alt="Header_Image"
+                />
+              </div>
+            </div>
+          </section>
+          <section class="about-us">
+            <div class="about-us__wrapper">
+              <div class="about-us__desc">
+                <p class="all__caption">
+                  KNOW MORE ABOUT US
+                  <svg
+                    width="48.000000"
+                    height="1.000000"
+                    viewBox="0 0 48 1"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs />
+                    <line
+                      id="Line"
+                      x1="0.000000"
+                      y1="0.500000"
+                      x2="48.000000"
+                      y2="0.500000"
+                      stroke="#FFFFFF"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.000000"
+                    />
+                  </svg>
+                </p>
+                <h3 class="all__headline">
+                  We source sustainable & line caught Foods
+                </h3>
+                <p class="about-us__headline--text">
+                  Edit this text to make it your own. To edit, simply click
+                  directly on the text to start adding your own words. You can
+                  move the text by dragging and dropping the text anywhere on the
+                  page.
+                </p>
+                <div class="about-us__wrapper--list">
+                  <ul class="about-us__list">
+                    <li class="about-us__item">
+                      <div class="about-us__item--wrapper">
+                        <img class="icon" src="./images/Icon.svg" alt="Icon" />
+                        <h3 class="about-us__heading">10+ People</h3>
+                      </div>
+                      <p class="about-us__headline--desc1">We are Small Team</p>
+                      <p class="about-us__headline--desc2">
+                        Through True Rich Attended does no end it his mother since
+                        favourable.
+                      </p>
+                    </li>
+                    <li class="about-us__item">
+                      <div class="about-us__item--wrapper">
+                        <img class="icon" src="./images/Icon.svg" alt="Icon" />
+                        <h3 class="about-us__heading">2014</h3>
+                      </div>
+                      <p class="about-us__headline--desc1">We are From</p>
+                      <p class="about-us__headline--desc2">
+                        Through True Rich Attended does no end it his mother since
+                        favourable.
+                      </p>
+                    </li>
+                    <li class="about-us__item">
+                      <div class="about-us__item--wrapper">
+                        <img class="icon" src="./images/Icon.svg" alt="Icon" />
+                        <h3 class="about-us__heading">200k</h3>
+                      </div>
+                      <p class="about-us__headline--desc1">We Served</p>
+                      <p class="about-us__headline--desc2">
+                        Through True Rich Attended does no end it his mother since
+                        favourable.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <button id="btn" class="about-us__button"><a href="menu.html">View Menu</a>
+                  <svg
+                    width="20.501953"
+                    height="6.660645"
+                    viewBox="0 0 20.502 6.66064"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs />
+                    <path
+                      id="Arrow"
+                      d="M0 2.83032L20 2.83032L20 3.83032L0 3.83032L0 2.83032ZM19.293 3.33032L16.8179 0.855469C16.6201 0.657471 16.6201 0.346436 16.8179 0.148438C17.0161 -0.0495605 17.3271 -0.0495605 17.5249 0.148438L20.3535 2.97681C20.5518 3.1748 20.5518 3.48584 20.3535 3.68384L17.5249 6.51221C17.3271 6.71021 17.0161 6.71021 16.8179 6.51221C16.6201 6.31421 16.6201 6.00317 16.8179 5.80518L19.293 3.33032Z"
+                      fill="#2E2D33"
+                      fill-opacity="1.000000"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="about-us__image">
+                <div class="about-us__picture_1">
+                  <img
+                    class="about-us__img"
+                    src="./images/Know more Image 1.jpeg"
+                    alt="Know more"
+                  />
+                </div>
+                <div class="about-us__picture_2">
+                  <img
+                    class="about-us__img"
+                    src="./images/Know more Image 2.jpeg"
+                    alt="Know more"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="service">
+            <div class="service__wrapper">
+              <div class="service__wrapper--picture">
+                <p class="all__caption">
+                  WHAT WE ARE SERVING
+                  <svg
+                    width="48.000000"
+                    height="1.000000"
+                    viewBox="0 0 48 1"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs />
+                    <line
+                      id="Line"
+                      x1="0.000000"
+                      y1="0.500000"
+                      x2="48.000000"
+                      y2="0.500000"
+                      stroke="#FFFFFF"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.000000"
+                    />
+                  </svg>
+                </p>
+                <h3 class="all__headline">
+                  We all have to eat, so why not do it beautifully?
+                </h3>
+              </div>
+              <div class="service__wrapper--text">
+                <p class="service__text">
+                  Through True Rich Attended does no end it his mother since
+                  favourable real had half every him case in packages enquire we
+                  up ecstatic.. Through True Rich Attended does no end it his
+                  mother
+                </p>
+              </div>
+            </div>
+            <div class="service_wrapper-card">
+              <div class="service_wrapper-content">
+                <img class="service_icon" src="./images/Icon1.svg" alt="Icon" />
+                <h3 class="serivice_wrapper_content-item">Quafe Cake</h3>
+                <p class="serivece-wrapper-content-text">
+                  Through True Rich Attended no end it his mother since favourable
+                  real had half every him.
+                </p>
+              </div>
+              <div class="service_wrapper-content">
+                <img class="service_icon" src="./images/Icon2.svg" alt="Icon" />
+                <h3 class="serivice_wrapper_content-item">Cofee</h3>
+                <p class="serivece-wrapper-content-text">
+                  Through True Rich Attended no end it his mother since favourable
+                  real had half every him.
+                </p>
+              </div>
+              <div class="service_wrapper-content">
+                <img class="service_icon" src="./images/Icon3.svg" alt="Icon" />
+                <h3 class="serivice_wrapper_content-item">Fast Food</h3>
+                <p class="serivece-wrapper-content-text">
+                  Through True Rich Attended no end it his mother since favourable
+                  real had half every him.
+                </p>
+              </div>
+              <div class="service_wrapper-content">
+                <img class="service_icon" src="./images/Icon4.svg" alt="Icon" />
+                <h3 class="serivice_wrapper_content-item">Cocktails</h3>
+                <p class="serivece-wrapper-content-text">
+                  Through True Rich Attended no end it his mother since favourable
+                  real had half every him.
+                </p>
+              </div>
+              <div class="service_wrapper-content">
+                <img class="service_icon" src="./images/Icon5.svg" alt="Icon" />
+                <h3 class="serivice_wrapper_content-item">Grill</h3>
+                <p class="serivece-wrapper-content-text">
+                  Through True Rich Attended no end it his mother since favourable
+                  real had half every him.
+                </p>
+              </div>
+              <div class="service_wrapper-content">
+                <img class="service_icon" src="./images/Icon6.svg" alt="Icon" />
+                <h3 class="serivice_wrapper_content-item">Snacks</h3>
+                <p class="serivece-wrapper-content-text">
+                  Through True Rich Attended no end it his mother since favourable
+                  real had half every him.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="menu">
+            <div class="menu__wrapper">
+              <div class="menu__wrapper--picture">
+                <p class="menu__caption">
+                  OUR MENU
+                  <svg
+                    width="48.000000"
+                    height="1.000000"
+                    viewBox="0 0 48 1"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs />
+                    <line
+                      id="Line"
+                      x1="0.000000"
+                      y1="0.500000"
+                      x2="48.000000"
+                      y2="0.500000"
+                      stroke="#FFFFFF"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.000000"
+                    />
+                  </svg>
+                </p>
+                <h3 class="all__headline">Discover our menu chart</h3>
+                <h4 class="menu__subtitle">Most Popular Picks</h4>
+              </div>
+              <div class="menu__wrapper--text">
+                <p class="service__text">
+                  Through True Rich Attended does no end it his mother since
+                  favourable real had half every him case in packages enquire we
+                  up ecstatic.. Through True Rich Attended does no end it his
+                  mother
+                </p>
+              </div>
+            </div>
+            <div class="menu__wrapper--popular">
+              <div class="menu__list">
+                <img src="./images/Image.png" alt="Drp Cofee" />
+                <div class="menu__item--popular">
+                  <h5 class="menu__item--subtitle">Drp Cofee</h5>
+                  <p class="menu__item--text">$08.85</p>
+                </div>
+              </div>
+              <div class="menu__list">
+                <img src="./images/Choco Cup Cake.jpeg" alt="Choco Cup Cake" />
+                <div class="menu__item--popular">
+                  <h5 class="menu__item--subtitle">Choco Cup Cake</h5>
+                  <p class="menu__item--text">$4.85</p>
+                </div>
+              </div>
+              <div class="menu__list">
+                <img src="./images/Chicken Burger.jpeg" alt="Chicken Burger" />
+                <div class="menu__item--popular">
+                  <h5 class="menu__item--subtitle">Chicken Burger</h5>
+                  <p class="menu__item--text">$8.85</p>
+                </div>
+              </div>
+              <div class="menu__list">
+                <img src="./images/French Fries.jpeg" alt="French Fries" />
+                <div class="menu__item--popular">
+                  <h5 class="menu__item--subtitle">French Fries</h5>
+                  <p class="menu__item--text">$7.85</p>
+                </div>
+              </div>
+              <div class="menu__list">
+                <img src="./images/Sandwitch.jpeg" alt="Sandwitch" />
+                <div class="menu__item--popular">
+                  <h5 class="menu__item--subtitle">Sandwitch</h5>
+                  <p class="menu__item--text">$3.97</p>
+                </div>
+              </div>
+              <div class="menu__list">
+                <img src="./images/Chinese Soup.jpeg" alt="Chinese Soup" />
+                <div class="menu__item--popular">
+                  <h5 class="menu__item--subtitle">Chinese Soup</h5>
+                  <p class="menu__item--text">$8.85</p>
+                </div>
+              </div>
+            </div>
+            <div class="menu__btn">
+              <button id="btn" class="menu__button" ><a href="menu.html">View Menu</a>
+                <svg
+                  width="20.501953"
+                  height="6.660645"
+                  viewBox="0 0 20.502 6.66064"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <desc>Created with Pixso.</desc>
+                  <defs />
+                  <path
+                    id="Arrow"
+                    d="M0 2.83032L20 2.83032L20 3.83032L0 3.83032L0 2.83032ZM19.293 3.33032L16.8179 0.855469C16.6201 0.657471 16.6201 0.346436 16.8179 0.148438C17.0161 -0.0495605 17.3271 -0.0495605 17.5249 0.148438L20.3535 2.97681C20.5518 3.1748 20.5518 3.48584 20.3535 3.68384L17.5249 6.51221C17.3271 6.71021 17.0161 6.71021 16.8179 6.51221C16.6201 6.31421 16.6201 6.00317 16.8179 5.80518L19.293 3.33032Z"
+                    fill="#2E2D33"
+                    fill-opacity="1.000000"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </section>
+    </div>
+        <section class="quote">
+          <div class="quote__wrapper">
+            <div class="quote__info">
+              <p class="quote__mark">“</p>
+              <p class="quote__text">
+                Edit this text to make it your own. To edit, simply click
+                directly on the text to start adding your own words. You can
+                move the text by dragging and dropping the text
+              </p>
+              <div class="quote__wrapper--Andro">
+                <div class="quote__img--Andro">
+                  <div>
+                    <p class="quote__Andro">Joheny Andro</p>
+                    <p class="quote__Andro--location">Bhubaneswar, Odisha</p>
+                  </div>
+                  <div class="blog__img--Andrew">
+                    <img
+                      class="quote__img"
+                      src="./images/Joheny Andro.png"
+                      alt="Andrew Jonson"
+                    />
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+            <div class="quote__picture">
+              <img class="quote__img-video" src="./images/Video.jpeg" alt="Video" />
+            </div>
+          </div>
+        </section>
+        <div class="container">
+          <section class="blog">
+            <h6 class="blog__headline">Read Our Lastest Blog</h6>
+            <div class="blog__wrapper">
+              <div class="blog__list">
+                <div class="blog__list--item">
+                  <p class="blog__data">21 Jun 2021</p>
+                  <p class="blog__title">Extra Thick Homemad Pizza Sauce</p>
+                  <p class="blog__text">
+                    It is a long established fact that a reader will be distracted
+                    by the readable content of a page.
+                  </p>
+                </div>
+                <img
+                  class="blog__image"
+                  src="./images/blog_img_1.jpeg"
+                  alt="blog_img_1"
+                />
+              </div>
+              <div class="blog__list">
+                <div class="blog__list--item">
+                  <p class="blog__data">21 Jun 2021</p>
+                  <p class="blog__title">The Best Way to Store Fresh Herbs</p>
+                  <p class="blog__text">
+                    It is a long established fact that a reader will be distracted
+                    by the readable content of a page.
+                  </p>
+                </div>
+                <img
+                  class="blog__image"
+                  src="./images/blog_img_2.jpeg"
+                  alt="blog_img_2"
+                />
+              </div>
+              <div class="blog__list">
+                <div class="blog__list--item">
+                  <p class="blog__data">21 Jun 2021</p>
+                  <p class="blog__title">5 ways to prepare porridge</p>
+                  <p class="blog__text">
+                    It is a long established fact that a reader will be distracted
+                    by the readable content of a page.
+                  </p>
+                </div>
+                <img
+                  class="blog__image"
+                  src="./images/blog_img_3.jpeg"
+                  alt="blog_img_3"
+                />
+              </div>
+            </div>
+          </section>
+          <section class="map">
+            <div class="map__wrapper">
+              <div class="map__wrapper--location">
+                <div class="map__location">
+                  <p class="map__title">Working Hour</p>
+                  <p class="map__data">Sunday to Saturday 09:00 AM to 11:00 PM</p>
+                </div>
+                <div class="map__location">
+                  <p class="map__title">Location</p>
+                  <p class="map__data">
+                    Street - 127, New York, United States <br />546544
+                  </p>
+                </div>
+                <div class="map__location">
+                  <p class="map__title">Contact us</p>
+                  <p class="map__data"><a href="#">+123456789 hey@yourdomain.com</a></p>
+                </div>
+              </div>
+              <div class="map__img">
+                <img class="map__image" src="./images/Map.jpeg" alt="Map" />
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="footer">
+          <div class="footer__wrapper--logo">
+            <a href="home.html"
+              ><img class="footer__logo" src="./images/Logo_2.svg" alt="Logo_2"
+            /></a>
+          </div>
+          <div class="footer__wrapper">
+            <ul class="footer__nav--list">
+              <li class="nav__item"><a class="nav__link" href="home.html">Home</a></li>
+              <li class="nav__item"><a class="nav__link" href="menu.html">Menu</a></li>
+              <li class="nav__item">
+                <a class="nav__link" href="about.html">About us</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="story.html">Our Story</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="blog.html">Blog</a></li>
+              <li class="nav__item"><a class="nav__link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="border"></div>
+        <div class="container">
+          <div class="footer__nav">
+            <p class="footer__text">&copy 2021 Finsweet | All rights reserved.</p>
+            <div class="footer__contacts">
+              <a href="https://uk-ua.facebook.com/"
+                ><img src="./images/Facebook.png" alt="Facebook"
+              /></a>
+              <a href="https://twitter.com/"
+                ><img src="./images/Twitter.png" alt="Twitter"
+              /></a>
+              <a href="https://www.instagram.com/"
+                ><img src="./images/Instagram.png" alt="Instagram"
+              /></a>
+              <a href="https://www.linkedin.com/"
+                ><img src="./images/LinkedIn.png" alt="LinkedIn"
+              /></a>
+            </div>
+            <a class="footer__project--link"
+              >Clone Project
+              <svg
+                width="20.501953"
+                height="6.660645"
+                viewBox="0 0 20.502 6.66064"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <path
+                  id="Arrow"
+                  d="M0 2.83032L20 2.83032L20 3.83032L0 3.83032L0 2.83032ZM19.293 3.33032L16.8179 0.855469C16.6201 0.657471 16.6201 0.346436 16.8179 0.148438C17.0161 -0.0495605 17.3271 -0.0495605 17.5249 0.148438L20.3535 2.97681C20.5518 3.1748 20.5518 3.48584 20.3535 3.68384L17.5249 6.51221C17.3271 6.71021 17.0161 6.71021 16.8179 6.51221C16.6201 6.31421 16.6201 6.00317 16.8179 5.80518L19.293 3.33032Z"
+                  fill="#FFB577"
+                  fill-opacity="1.000000"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  </body>
+</html>
